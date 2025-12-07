@@ -1,11 +1,11 @@
 module.exports.config = {
-  name: "cpl",
+  name: "meme",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
-  description: "Random cpl dp",
+  description: "Random CoupleDp",
   commandCategory: "Image",
-  usages: "cpl",
+  usages: "Cpl",
   cooldowns: 5,
   dependencies: {
     "request":"",
@@ -19,7 +19,7 @@ module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-  var link = ["https://postimg.cc/67YRYyfX", "https://postimg.cc/yJPhtfsz"];
+  var link = ["https://postimg.cc/NyPcX4vc" , "https://postimg.cc/qN3bwx3w" , "https://postimg.cc/JD1p1w2w" , "https://postimg.cc/nMh3gJm7"];
   var max = Math.floor(Math.random() * 6);  
 var min = Math.floor(Math.random() * 2);
   var data = await Currencies.getData(event.senderID);
